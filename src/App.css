@@ -1,0 +1,58 @@
+.App {
+	margin: auto;
+	font-family: "Colfax";
+}
+
+.main-container {
+	margin: auto;
+	height: 100vh;
+	display: grid;
+	max-width: 1170px;
+	padding: 0px 15px;
+}
+
+@font-face {
+	font-family: "Colfax";
+	src: local("Colfax"),
+		url("./assets/fonts/colfaxRegular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Colfax";
+	src: local("Colfax"), url("./assets/fonts/colfaxBold.ttf") format("truetype");
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: "Colfax";
+	src: local("Colfax"),
+		url("./assets/fonts/colfaxMedium.ttf") format("truetype");
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: "ProximaNova";
+	src: local("ProximaNova"),
+		url("./assets/fonts/ProximaNova/Proxima Nova Light.otf");
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: "ProximaNova";
+	src: local("ProximaNova"),
+		url("./assets/fonts/ProximaNova/Proxima Nova Regular.otf");
+}
+
+@font-face {
+	font-family: "ProximaNova";
+	src: local("ProximaNova"),
+		url("./assets/fonts/ProximaNova/Proxima Nova Semibold.otf");
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: "ProximaNova";
+	src: local("ProximaNova"),
+		url("./assets/fonts/ProximaNova/Proxima Nova Bold.otf");
+	font-weight: 600;
+}
